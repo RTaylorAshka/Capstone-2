@@ -35,15 +35,29 @@ div.collapsing {
     display: inline-flex;
 }
 
+.cutoff {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    justify-content: end;
+    text-align: end;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
 
 
 body {
     background-color: rgb(0, 0, 0);
     background-image: linear-gradient(0deg, rgba(0, 6, 43, 0.534) 0%, rgba(88, 99, 255, 0.2) 100%);
     transition: all 2s;
-    color: rgb(196, 227, 255);
+    color: rgb(241, 249, 255);
     padding-right: 0px !important;
-
-    /* overflow: hidden; */
 
 }
